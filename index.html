@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- & FONT AWESOME -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- & CSS LINK -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- & ICON LINK -->
+    <link rel="icon" href="icon/cloud_weathe_sun_icon-icons.com_51096.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                <img id="logo" src="images/logo.png" alt="logo">
+                <h1>Weather <br> <small>tagline goes here</small></h1>
+            </div>
+            <ul>
+                <li><a id="home" href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Live Cameras</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="location">
+            <div class="find-location">
+                <input class="inpt-text" type="text" placeholder="Find your location..." id="search">
+                <button class="find-btn" type="button" id=""> Find</button>
+            </div>
+            <div class="container">
+                <div class="today">
+                    <div class="date">
+                        <h3>Saturday</h3>
+                        <h3>29june</h3>
+                    </div>
+                    <div class="degree">
+                        <h3 id="cityToday">Cairo</h3>
+                        <div class="sun">
+                            <h3 id="degreeToday">34<sup>o</sup>C</h3>
+                            <img src="images/113.webp" alt="" />
+                        </div>
+                        <span id="sunny">Sunny</span>
+                        <div class="icons">
+                            <span>
+                                <img src="images/icon-umberella.png" alt="">
+                                20%
+                            </span>
+                            <span>
+                                <img src="images/icon-wind.png" alt="">
+                                18km/h
+                            </span>
+                            <span>
+                                <img src="images/icon-compass.png" alt="">
+                                East
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tomorrow">
+                    <div id="tomorrow-day">Saturday</div>
+                    <div class="degree">
+                        <div class="sun-icon">
+                            <img src="images/113.webp" alt="">
+                        </div>
+                        <div id="degree-number">
+                            37.8
+                            <sup>o</sup>
+                            C
+                        </div>
+                        <div>
+                            25.3
+                            <sup>o</sup>
+
+                        </div>
+                        <small>Sunny</small>
+                    </div>
+                </div>
+                <div id="after-tomorrow" class="tomorrow">
+                    <div id="tomorrow-day">Sunday</div>
+                    <div class="degree">
+                        <div class="sun-icon">
+                            <img src="images/113.webp" alt="">
+                        </div>
+                        <div id="degree-number">
+                            37.8
+                            <sup>o</sup>
+                            C
+                        </div>
+                        <div>
+                            25.3
+                            <sup>o</sup>
+
+                        </div>
+                        <small>Sunny</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="second">
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="div-email">
+            <div>
+            <input type="text" placeholder="Enter your email to subscribe..." >
+            <button>subscribe</button>
+        </div>
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        <div class="icon-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </footer>
+
+
+
+    <!-- & JS LINK -->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
